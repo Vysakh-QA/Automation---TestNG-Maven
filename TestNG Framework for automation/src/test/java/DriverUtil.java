@@ -13,7 +13,6 @@ public class DriverUtil {
 	 public void beforeTest() {
 		 // System.setProperty("webdriver.chrome.driver", "/Users/Vysakh.Prasanth/Downloads/chromedriver");
 		  WebDriverManager.chromedriver().setup();
-
 	 	  driver = new ChromeDriver();
 	 }
 	 

@@ -11,7 +11,7 @@ public class GoogleTest {
     @BeforeTest()
         public void beforeTest() {
 
-            driverUtil.beforeTest();
+        driverUtil.beforeTest();
 
         }
 
