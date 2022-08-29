@@ -1,6 +1,8 @@
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -12,6 +14,7 @@ import java.util.Date;
 
 public class ListenerTest implements ITestListener {
 
+	WebDriver driver = new ChromeDriver();
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
