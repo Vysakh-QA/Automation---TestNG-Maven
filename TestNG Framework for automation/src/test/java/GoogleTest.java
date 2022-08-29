@@ -9,20 +9,20 @@ public class GoogleTest {
     DriverUtil driverUtil = new DriverUtil();
 
     @BeforeTest()
-        public void beforeTest() {
+    public void beforeTest() {
 
         driverUtil.beforeTest();
 
-        }
+    }
 
-        @Test
-    public void getURL(){
+    @Test
+    public void getURL() {
         DriverUtil.driver.get("https://www.google.com");
         DriverUtil.driver.findElement(By.name("q")).sendKeys("Michael Jackson");
-        }
+    }
 
-        @Test
-        public void checkLogin(){
+    @Test
+    public void checkLogin() {
 
-        }
+    }
 }
